@@ -1,0 +1,26 @@
+{
+  "inputs": [
+    {
+      "type": "ETW",
+      "sessionNamePrefix": "MetricHub",
+      "cleanupOldSessions": true,
+      "reuseExistingSession": false,
+      "providers": [
+        {
+          "providerName": "IIS: WWW Server",
+          "level": "Error",
+          "keywords": "0xFFFFFFFE"
+        },
+        {
+          "providerName": "Microsoft-Windows-IIS-Logging",
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "type": "StdOutput"
+    }
+  ],
+  "schemaVersion": "2016-08-11"
+}

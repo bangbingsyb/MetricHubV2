@@ -1,1 +1,1 @@
-# MetricHubV2
+# MetricHub
