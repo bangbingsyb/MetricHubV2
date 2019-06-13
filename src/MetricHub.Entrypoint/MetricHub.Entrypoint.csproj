@@ -13,4 +13,8 @@
     <PackageReference Include="System.Diagnostics.Tracing" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="eventFlowConfig.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
