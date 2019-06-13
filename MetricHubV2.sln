@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F1E9F313-48CB-4E7A-9472-E580DB91BBB2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricHub.Entrypoint", "src\MetricHub.Entrypoint\MetricHub.Entrypoint.csproj", "{CE485EB0-690C-4D76-98D2-8E2C952EEF70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetricHub.Entrypoint", "src\MetricHub.Entrypoint\MetricHub.Entrypoint.csproj", "{CE485EB0-690C-4D76-98D2-8E2C952EEF70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CE485EB0-690C-4D76-98D2-8E2C952EEF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,7 +28,10 @@ Global
 		{CE485EB0-690C-4D76-98D2-8E2C952EEF70}.Release|x86.ActiveCfg = Release|Any CPU
 		{CE485EB0-690C-4D76-98D2-8E2C952EEF70}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{CE485EB0-690C-4D76-98D2-8E2C952EEF70} = {F1E9F313-48CB-4E7A-9472-E580DB91BBB2}
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7598A952-33F1-427E-9110-49C331C1F810}
 	EndGlobalSection
 EndGlobal
