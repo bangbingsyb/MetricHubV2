@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceProcess;
-using System.Text;
+﻿using Microsoft.Diagnostics.EventFlow;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Diagnostics.EventFlow;
 
 namespace MetricHub.Entrypoint
 {
